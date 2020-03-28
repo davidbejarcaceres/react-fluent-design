@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+.fruit-detail {
+  height: 100vh;
+  background-color: #12100e7a;
+  text-align: center;
+}
+
+#root > div > div > div > div > div > div:nth-child(1) > div > div.navigation-view-paneParent-3614404015 > div > div.navigation-view-paneTop-3443935055 {
+  height: 90vh;
+  overflow: scroll;
+}
+
+#root > div > div > div > div > div > div:nth-child(1) > div > div.navigation-view-paneParent-3614404015 > div > div.navigation-view-paneTop-3443935055 > div.navigation-view-paneTopIcons-2187275699 > span:nth-child(1) > span > div {
+  width: inherit;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
